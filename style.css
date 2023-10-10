@@ -1,0 +1,74 @@
+.box1 {
+    background-color: aqua;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+} 
+.box2 {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 170px;
+    left: 170px;
+} 
+.box3 {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 170px;
+    left: 230px;
+} 
+.box4 {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 170px;
+} 
+.box5 {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 230px;
+} 
+.card{
+    width: 100%;
+    padding: 2em;
+    box-sizing: border-box;
+    background-color: rgb(231, 231, 231);
+}
+.card>img{
+    float: right;
+    width:180px;
+    margin: -25px 4px 0 0;
+}
+nav {
+    width: 100%;
+    background-color: rgb(40, 30, 30);
+    color: white;
+    position: sticky;
+    top:0
+}
+nav div{
+    display: inline-block;
+    padding: 0 10px;
+}
+nav div>a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.Logo{
+    width: 70%;
+    font-size: 1.2em;
+}
